@@ -26,3 +26,21 @@ Use a capturing group to match the domain of the url on each line (thehill.com, 
 This is the regular expression to solve this problem.
 
 Please add your part below.
+
+#Kimberly Anastácio's part
+#I want to identify tweets that mention Lula or Bolsonaro, but not Rousseff (Brazilian politicians)
+
+1 No Brasil, Lula foi preso liderando pesquisas. 
+2 Olavo de Carvalho entrega o jogo: ‘Lamento informar mas no tempo do Lula havia mais liberdade
+3 Imprensa internacional repercute discurso histórico de Lula contra o governo Bolsonaro
+4 Aceita que dói menos ,GADO MANIPULADO! E VIDA LONGA PRA SUA MAJESTADE PRESIDENTE LULA LULA E DILMA ROUSSEFF!
+5 Se juntar todo o governo Bolsonaro, não alcança 1/5 do caráter de Dilma Rousseff.
+6 Silêncio de Bolsonaro e seus ministros diante da morte de um general por covid choca o meio militar
+
+#answer one highlights those tweets that mention Lula or Bolsonaro
+((?i)lula|bolsonaro)
+
+#answer two matches everything but Rousseff. In a spread sheet, I could combine both responses to identify only tweets that matter to me
+\b(?!(?i)rousseff\b)\w+
+
+Please add your part below.
