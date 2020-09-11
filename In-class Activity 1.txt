@@ -43,4 +43,22 @@ Please add your part below.
 #answer two matches everything but Rousseff. In a spread sheet, I could combine both responses to identify only tweets that matter to me
 \b(?!(?i)rousseff\b)\w+
 
+#Mladen Petkov's part
+#I want to match only image files
+
+Watermelon_Sugar.pdf
+Break_My_Heart.jpg
+Falling.doc
+Intentions.txt
+Say_So.png
+Blinding_Lights.html
+Adore_You.mp3
+Memories.png
+Lose_You_To_Love_Me.tiff
+Good_As_Hell.gif
+
+#answer
+(\w+)\.(jpg|tiff|gif|png)$
+
+
 Please add your part below.
