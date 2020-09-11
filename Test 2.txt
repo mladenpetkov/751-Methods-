@@ -1,2 +1,28 @@
-hello, this is Jing
-Hello World
+Jing Cai's part
+Use a capturing group to match the domain of the url on each line (thehill.com, time.com, www.cnn.com, etc.)
+
+31	http://thehill.com/blogs/blog-briefing-room/news/375174-broward-co-sheriff-armed-officer-at-school-never-went-into#.Wo9V9dG1l2U.twitter
+30	http://time.com/4093517/south-carolina-school-police-ben-fields/
+4	http://www.cnn.com/2018/02/02/opinions/super-bowl-stars-fight-slavery-haugen/index.html
+3	http://www.vulture.com/2014/10/best-movies-on-amazon-prime.html
+21	http://www.wnd.com/2018/02/media-ignoring-1-crucial-factor-in-florida-school-shooting/
+23	http://www.wnd.com/2018/02/media-ignoring-1-crucial-factor-in-florida-school-shooting/#!
+27	https://accounts.blogger.com/accounts/Logout2?hl=en&service=mail&ilo=1&ils=s.blogger&ilc=2&continue=https%3A%2F%2Fmail.google.com%2Fmail&zx=-1686272944
+28	https://nypost.com/2018/02/20/trump-jr-likes-tweets-attacking-florida-massacre-survivor/
+6	https://social-login.cnn.com/GS/bookmark.aspx?close=true#_=_
+7	https://www.buzzfeed.com/eleanorbate/grrrrrrrrrl-power
+9	https://www.buzzfeed.com/eleanorbate/grrrrrrrrrl-power#.itRwOqbp1
+16	https://www.buzzfeed.com/eleanorbate/grrrrrrrrrl-power#.jrGa2wJN4
+10	https://www.buzzfeed.com/eleanorbate/grrrrrrrrrl-power?utm_term=.qf4xmaL4j#.itRwOqbp1
+18	https://www.buzzfeed.com/eleanorbate/grrrrrrrrrl-power?utm_term=.rb1qRMYen#.jrGa2wJN4
+32	https://www.cbsnews.com/live-news/trump-holds-press-conference-with-australian-prime-minister-live-updates/
+34	https://www.cnn.com/2018/02/26/politics/ivanka-donald-trump-sexual-misconduct-accusers/index.html
+2	https://www.npr.org/2018/01/31/581059016/unmasking-katy-perrys-backup-dancer-left-shark
+33	https://www.rawstory.com/2018/02/6-awful-details-omitted-billy-grahams-fawning-obituaries/
+26	https://www.rd.com/advice/parenting/stop-bullying-strategy/#.Woc5fzw4fq1.twitter
+0	https://www.usatoday.com/story/news/2018/01/30/hundreds-protesters-target-trump-he-arrives-state-union/1080178001
+ 
+\/{2}(.*\.\w{3,})\/
+This is the regular expression to solve this problem.
+
+Please add your part below.
